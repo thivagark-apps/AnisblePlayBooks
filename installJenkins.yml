@@ -1,4 +1,4 @@
-- hosts: jenkinsServer
+- hosts: all
   become: yes
   tasks:
   - name: Download Long Term Jenkins release
